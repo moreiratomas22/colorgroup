@@ -1,0 +1,96 @@
+.dropDown {
+    position: relative;
+    width: 4rem;
+}
+
+.dropDown-button {
+    all: unset;
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+    position: relative;
+    padding: 0;
+    padding-right: 1.6rem;
+    z-index: 5;
+    color: var(--text-color);
+    transition: 0.2s ease-in-out;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.721rem;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.dropDown-button:hover {
+    color: var(--hover-gray);
+}
+
+.dropDown-button::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 0.03rem;
+    width: 0.6rem;
+    top: 50%;
+    right: 0%;
+    transform: rotateZ(-45deg);
+}
+
+.dropDown-button::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 0.03rem;
+    width: 0.6rem;
+    top: 50%;
+    right: 8%;
+    transform: rotateZ(45deg);
+}
+
+.dropDown-button:hover {
+    cursor: pointer;
+}
+
+.dropDown-hiddenContent {
+    position: absolute;
+    width: inherit;
+    top: 0%;
+    z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+.dropDown-showContent {
+    max-height: 200px;
+    top: 100%;
+}
+
+.dropDown-hiddenContent ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropDown-hiddenContent li {
+    list-style: none;
+    padding: 0;
+    transition: 0.1s ease-in-out;
+    color: var(--text-color);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.721rem;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.dropDown-hiddenContent li:hover {
+    background-color: var(--second-color);
+    cursor: pointer;
+    color: var(--main-color)
+}
+
+@media (width < 1025px) {
+    .dropDown {
+        display: none;
+    }
+}

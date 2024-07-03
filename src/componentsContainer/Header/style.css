@@ -1,0 +1,16 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 35px;
+    color:  var(--text-color);
+}
+
+.headerContainer-utilsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 46px;
+}

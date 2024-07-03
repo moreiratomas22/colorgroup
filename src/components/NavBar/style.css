@@ -1,0 +1,18 @@
+.navbarContainer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+
+.navbarContainer ul li a {
+    color: inherit;
+}
+
+.navbarContainer .navLink-special {
+    border: 1px solid var(--text-color);
+    padding: 10px 30px;
+}

@@ -2,6 +2,10 @@
     margin-top: 126px;
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .contactInfo-data ul {
     padding: 0;

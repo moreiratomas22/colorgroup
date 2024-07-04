@@ -1,0 +1,11 @@
+.customButton {
+    border: 1px solid var(--text-color);
+    background: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    width: 11.75rem;
+    height: 3.125rem;
+}

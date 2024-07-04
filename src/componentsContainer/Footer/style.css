@@ -38,18 +38,34 @@
 .footer-contactUs {
     margin-top: 77px;
 }
+.scrollingMarquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+}
 .footer-contactUs h2 {
     margin: 0;
+    margin-right: 6%;
     padding: 0;
     font-size: 18.75rem;
     line-height: 18.75rem;
     color: transparent; /* Hace el texto transparente */
     -webkit-text-stroke: 4px var(--text-color); /* Agrega un borde al texto */
     font-weight: 700;
+    display: inline-block;
 }
 .footer-copyright {
     position: absolute;
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-56%);
+    }
 }

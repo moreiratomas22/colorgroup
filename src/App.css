@@ -1,7 +1,9 @@
 :root {
   --text-color: #0D3579;
+  --light-gray: #ECECEC;
 }
 
 body {
   font-family: "Familjen Grotesk", sans-serif;
+  color: var(--text-color);
 }

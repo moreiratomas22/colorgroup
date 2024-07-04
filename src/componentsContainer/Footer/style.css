@@ -2,6 +2,7 @@
     height: 36.25rem;
     background-color: var(--light-gray);
     position: relative;
+    overflow: hidden;
 }
 .footer-topContainer {
     display: flex;

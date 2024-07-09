@@ -1,9 +1,13 @@
+import { AboutFrontPage } from "../../componentsContainer"
+
 import "./style.css"
 
 const About = () => {
 
     return (
-        <h2>About</h2>
+        <main>
+            <AboutFrontPage />
+        </main>
     )
 }
 

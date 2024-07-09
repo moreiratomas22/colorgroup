@@ -1,4 +1,4 @@
-import { AboutFrontPage } from "../../componentsContainer"
+import { AboutDescription, AboutFrontPage } from "../../componentsContainer"
 
 import "./style.css"
 
@@ -7,6 +7,7 @@ const About = () => {
     return (
         <main>
             <AboutFrontPage />
+            <AboutDescription />
         </main>
     )
 }

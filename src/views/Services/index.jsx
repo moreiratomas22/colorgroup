@@ -1,11 +1,12 @@
 import "./style.css"
-import { ServicesFrontPage } from "../../componentsContainer"
+import { ServicesFrontPage, StripeSection } from "../../componentsContainer"
 
 const Services = () => {
 
     return (
         <main>
             <ServicesFrontPage />
+            <StripeSection />
         </main>
     )
 }

@@ -1,9 +1,12 @@
 import "./style.css"
+import { ServicesFrontPage } from "../../componentsContainer"
 
 const Services = () => {
 
     return (
-        <h2>Services</h2>
+        <main>
+            <ServicesFrontPage />
+        </main>
     )
 }
 

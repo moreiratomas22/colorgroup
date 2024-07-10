@@ -1,4 +1,4 @@
-import { AboutDescription, AboutFrontPage, OurTeam } from "../../componentsContainer"
+import { AboutDescription, AboutFrontPage, OurTeam, Testimony } from "../../componentsContainer"
 
 import "./style.css"
 
@@ -9,6 +9,7 @@ const About = () => {
             <AboutFrontPage />
             <AboutDescription />
             <OurTeam />
+            <Testimony />
         </main>
     )
 }

@@ -5,16 +5,33 @@ import { Home, Services, About, Contact } from "./views"
 import { Header, Footer } from "./componentsContainer";
 
 function App() {
+
+  const links = [
+    {
+        title: "Servicios",
+        path: "/services"
+    },
+    {
+        title: "Nostros",
+        path: "/about"
+    },
+    {
+        title: "¿Hablamos?",
+        path: "/contact",
+        special: true
+    }
+]
+
   return (
     <BrowserRouter>
-      <Header />
+      <Header links={links} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      <Footer links={links} />
     </BrowserRouter>
   );
 }

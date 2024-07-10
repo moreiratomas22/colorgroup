@@ -1,0 +1,46 @@
+.contactFrontPageContainer {
+    position: relative;
+    color: var(--white-color);
+    overflow: hidden;
+    height: 51.438rem;
+}
+
+.contactFrontPage-bg {
+    position: absolute;
+    z-index: -1;
+    filter: brightness(1.15) invert();
+    object-fit: cover;
+}
+
+.contactFrontPageContainer h2 {
+    font-size: 6.25rem;
+    font-weight: 700;
+    line-height: 5.375rem;
+    letter-spacing: 0.063rem;
+}
+
+.contactFrontPageContainer p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+    text-align: left;
+    width: 580px;
+}
+
+.contactFrontPage-title1 {
+    position: absolute;
+    left: 80px;
+    top: 204px;
+}
+
+.contactFrontPage-title2 {
+    position: absolute;
+    left: 611px;
+    top: 368px;
+}
+
+.contactFrontPage-p {
+    position: absolute;
+    left: 80px;
+    bottom: 110px;
+}

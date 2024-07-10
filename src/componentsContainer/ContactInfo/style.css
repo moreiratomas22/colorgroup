@@ -1,0 +1,39 @@
+.contactInfoContainer {
+    margin-top: 126px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contactInfo-data ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.contactInfo-data li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.contactInfo-data img {
+    width: 24px;
+}
+
+.contactInfo-data p {
+    padding: 0;
+    margin: 0;
+}
+
+.contactInfo-days {
+    margin-top: 135px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}

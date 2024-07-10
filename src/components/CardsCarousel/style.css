@@ -1,0 +1,110 @@
+.cardCarouselContainer-outer {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.cardCarouselContainer {
+    display: flex;
+    align-items: flex-start;
+    transition: 1s ease-in-out;
+}
+
+.cardCarousel-utils {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 48px;
+}
+
+.cardCarousel-levelContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+.cardCarousel-level {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--noselected-color);
+}
+
+.cardCarousel-level-selected {
+    background-color: var(--text-color);
+}
+
+.cardCarousel-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.cardCarousel-buttons-buttonContainer {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid var(--text-color);
+    position: relative;
+}
+
+.cardCarousel-buttons-buttonContainer:hover {
+    cursor: pointer;
+}
+
+.cardCarousel-buttons-horizontalLine {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--text-color);
+    width: 60%;
+    height: 3px;
+    border-radius: 20px;
+}
+
+.cardCarousel-buttons-leftButton-diagonalTop {
+    background-color: var(--text-color);
+    width: 60%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotateZ(-45deg);
+    transform-origin: left bottom;
+    border-radius: 20px;
+}
+.cardCarousel-buttons-leftButton-diagonalBottom {
+    background-color: var(--text-color);
+    width: 60%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotateZ(45deg);
+    transform-origin: left top;
+    border-radius: 20px;
+}
+
+.cardCarousel-buttons-rightButton-diagonalTop {
+    background-color: var(--text-color);
+    width: 60%;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateZ(45deg);
+    transform-origin: right bottom;
+    border-radius: 20px;
+}
+.cardCarousel-buttons-rightButton-diagonalBottom {
+    background-color: var(--text-color);
+    width: 60%;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: rotateZ(-45deg);
+    transform-origin: right top;
+    border-radius: 20px;
+}

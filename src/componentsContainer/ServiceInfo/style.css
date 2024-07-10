@@ -1,0 +1,81 @@
+.servicesInfoContainer {
+    min-height: 100px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1px 2fr;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.servicesInfoContainer h2 {
+    font-size: 6.25rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.servicesInfo-verticalLine {
+    width: 1px;
+    background-color: var(--light-gray2);
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+.servicesInfo-itemsContainer {
+    box-sizing: border-box;
+    margin-left: 54px;
+}
+
+.servicesInfo-itemContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 108px;
+}
+
+.servicesInfo-item-textContainer {
+    width: 60%;
+}
+
+.servicesInfo-item-textContainer h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-align: left;
+    margin: 0;
+    margin-top: 114px;
+}
+
+.servicesInfo-item-textContainer p {
+    font-family: Familjen Grotesk;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.servicesInfo-item-list{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    text-align: left;
+    color: var(--light-gray2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 114px;
+}
+
+.servicesInfo-diamondLogoContainer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

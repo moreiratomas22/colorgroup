@@ -1,9 +1,13 @@
+import { ContactFrontPage, ContactInfo } from "../../componentsContainer"
 import "./style.css"
 
 const Contact = () => {
 
     return (
-        <h2>Contact</h2>
+        <main>
+            <ContactFrontPage />
+            <ContactInfo />
+        </main>
     )
 }
 

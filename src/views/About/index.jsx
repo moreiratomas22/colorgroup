@@ -1,9 +1,17 @@
+import { AboutDescription, AboutFrontPage, OurTeam, Testimony, Ubication } from "../../componentsContainer"
+
 import "./style.css"
 
 const About = () => {
 
     return (
-        <h2>About</h2>
+        <main>
+            <AboutFrontPage />
+            <AboutDescription />
+            <OurTeam />
+            <Testimony />
+            <Ubication />
+        </main>
     )
 }
 

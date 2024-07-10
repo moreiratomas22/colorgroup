@@ -2,23 +2,7 @@ import "./style.css"
 import { LangButton, NavBar } from "../../components"
 import colorGroup_logo from "../../assets/colorGroup_logo.png"
 
-const Header = () => {
-
-    const links = [
-        {
-            title: "Servicios",
-            path: "/services"
-        },
-        {
-            title: "Nostros",
-            path: "/about"
-        },
-        {
-            title: "¿Hablamos?",
-            path: "/contact",
-            special: true
-        }
-    ]
+const Header = ({links}) => {
 
     return (
         <header className="headerContainer">
